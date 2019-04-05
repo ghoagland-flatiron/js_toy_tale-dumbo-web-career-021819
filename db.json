@@ -47,6 +47,24 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Jaela",
+      "image": "https://pixel.nymag.com/imgs/fashion/daily/2019/04/04/4-beyonce.w330.h412.jpg",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "name": "Jaela",
+      "image": "https://pixel.nymag.com/imgs/fashion/daily/2019/04/04/4-beyonce.w330.h412.jpg",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "Jaela",
+      "image": "https://pixel.nymag.com/imgs/fashion/daily/2019/04/04/4-beyonce.w330.h412.jpg",
+      "likes": 0,
+      "id": 11
     }
   ]
 }
