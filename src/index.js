@@ -14,6 +14,22 @@ addBtn.addEventListener('click', () => {
     toyForm.style.display = 'none'
   }
 })
+const toyCard = (toyObject) => {
+  return `<div class="card">
+    <h2>${toyObject.name}</h2>
+    <img src=${toyObject.image} class="toy-avatar" />
+    <p>${toyObject.likes} Likes </p>
+    <button class="like-btn">Like <3</button>
+  </div>`
+}
 
-
+const toyDivTag = document.getElementById('toy-collection');
 // OR HERE!
+const toyUrl = fetch('http://localhost:3000/toys')
+.then((response) => {
+  return response.json()
+}).then((toysObject) => {
+  toysObject.forEach((toyObject) => {
+  console.log(toyObject);
+  toyDivTag.innerHTML += toyCard(toyObject)
+})})
